@@ -1,0 +1,28 @@
+header{
+    background-color: var(--surface-color);
+    height: 60px;
+}
+
+.header-left-side{
+    width: 30%;
+}
+
+.header-right-side{
+    width: 70%;
+}
+
+.nav-options{
+    width: 100%;
+}
+
+.nav-options a {    
+    color: var(--neutral-color);
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0px 2%;
+    padding: 1% 2%;
+}
+
+.nav-options a:hover{
+    border-bottom: solid 2px var(--primary-color);
+}   

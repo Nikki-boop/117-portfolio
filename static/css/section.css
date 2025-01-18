@@ -1,0 +1,51 @@
+.about-section {
+    margin-top: 2rem 0px;
+    padding: 1%;
+}
+
+.about-image-container {
+    width: 30%;
+}
+
+.about-image-container img {
+    max-width: 50%;
+    margin: 0px;
+    height: auto;
+}
+
+.about-description-container{
+    width: 50%;
+}
+
+.about-description-container p {
+    margin: 2rem 0px;
+    width: 75%;
+}
+
+.skill-container{
+    margin: 2rem 0px;
+}
+
+.skill-list{
+    flex-wrap: wrap;
+    margin: 2rem 0px;
+    width: 70%;
+    gap: 1rem;
+}
+
+.home-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.home-image-container img {
+    margin-right: 20px; /* Adjust the spacing between the image and text */
+    max-width: 400px; /* Adjust the size of the image as needed */
+    height: auto;
+}
+
+.home-image-container p {
+    max-width: 600px; /* Adjust the width of the text container as needed */
+}
