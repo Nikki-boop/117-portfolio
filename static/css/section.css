@@ -49,3 +49,117 @@
 .home-image-container p {
     max-width: 600px; /* Adjust the width of the text container as needed */
 }
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; /* Adjust the spacing between project cards as needed */
+}
+
+.project-card {
+    flex: 1 1 300px; /* Adjust the width of the project cards as needed */
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.text-label {
+    background-color:#025834;
+    border-radius: 4px;
+    padding: 4px 8px;
+    color: white;
+}
+
+#projectform {
+    display: flex;
+    flex-direction: column;
+    height: 35rem;
+    width: 35rem;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    padding: 0px 2%;
+    border: solid 3px var(--secondary-color);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add-project-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 2%;
+}
+
+.new-project-section {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.new-project-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#projectForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}

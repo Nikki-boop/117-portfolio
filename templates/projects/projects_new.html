@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}New Project{% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<section class="new-project-section center-column">
+    <h2>New Project</h2>
+
+    <form id="projectForm" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.name }}
+        {{ form.image }}
+        {{ form.description }}
+        {{ form.year }}
+        {{ form.repository }}
+        {{ form.skills }}
+
+        <div class="controls">
+            <button type="submit" class="btn-primary">Save Project</button>
+            <button type="reset" class="btn-secondary">Reset form</button>
+        </div>
+    </form>
+</section>
+  
+{% endblock content %}
+

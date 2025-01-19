@@ -9,5 +9,5 @@ def about_view(request):
 def contact_view(request):  
     return render(request, 'pages/contact.html')
 
-def experience_view(request):
-    return render(request, 'pages/experience.html')
+def projects_view(request):
+    return render(request, 'pages/projects.html')
