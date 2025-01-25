@@ -163,3 +163,65 @@
 .btn-secondary:hover {
     background-color: #5a6268;
 }
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-header {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.contact-subheader {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #666;
+}
+
+.success-message {
+    font-size: 1.2rem;
+    text-align: center;
+    color: green;
+    margin-top: 20px;
+}
