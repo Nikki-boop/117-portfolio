@@ -42,4 +42,4 @@ def contact_view(request):
 
 
 def projects_view(request):
-    return render(request, 'pages/projects.html')
+    return render(request, 'pages/projects_list.html')
